@@ -1,0 +1,75 @@
+body {
+  background: #666666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#journalImage {
+  cursor: pointer;
+}
+
+#prevBtn, #nextBtn {
+  position: absolute;
+  bottom: 10%;
+  cursor: pointer;
+}
+
+.arrowBtn {
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  bottom: 10%;
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: background-image 0.2s ease;
+}
+
+#prevBtn {
+  left: 60px;
+  background-image: url('left.png');
+  transition: transform 0.2s;
+}
+
+#prevBtn:hover {
+  background-image: url('yellowleft.png');
+    transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+#prevBtn span {
+  transition: color 0.2s ease; 
+}
+#nextBtn {
+  right: -10px;
+  background-image: url('right.png');
+  transition: transform 0.2s;
+}
+
+#nextBtn:hover {
+  background-image: url('yellow right.png');
+   transform: scale(1.05);
+   transition: transform 0.3s;
+}
+
+#nextBtn span {
+  transition: color 0.2s ease; 
+}
+
+#entryText {
+  position: absolute;
+  width: 40%;
+  height: 55%;
+  background: #cec3a7;
+  border-radius: 20px;
+  left: 30%;
+  font-family: "Georgia", serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #3a2a15;
+  white-space: pre-wrap; 
+  pointer-events: none; 
+  display: none; 
+}
