@@ -44,7 +44,7 @@ body {
   transition: color 0.2s ease; 
 }
 #nextBtn {
-  right: -10px;
+  right: 60px;
   background-image: url('right.PNG');
   transition: transform 0.2s;
 }
