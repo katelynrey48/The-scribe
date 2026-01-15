@@ -49,7 +49,7 @@ body {
 }
 
 #nextBtn:hover {
-  background-image: url('yellow right.PNG');
+  background-image: url('yellowright.PNG');
    transform: scale(1.05);
    transition: transform 0.3s;
 }
