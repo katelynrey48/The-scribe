@@ -24,7 +24,7 @@ const entries = [
 function renderPage() {
 
   if (currentPage === 0) {
-    journalImage.src = "cover.png";
+    journalImage.src = "cover.PNG";
     entryText.style.display = "none";
     return;
   }
@@ -32,14 +32,14 @@ function renderPage() {
 
 
 if (currentPage === 1) {
-  journalImage.src = "halfopenbook.png";
+  journalImage.src = "halfopenbook.PNG";
   entryText.style.display = "block";  
   entryText.textContent = halfOpenEntry;
   return;
 }
 
 
-  journalImage.src = "fullyopenbook.png";
+  journalImage.src = "fullyopenbook.PNG";
   entryText.style.display = "block";
 
   let entryIndex = currentPage - 2;
