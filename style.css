@@ -44,12 +44,12 @@ body {
 }
 #nextBtn {
   right: -10px;
-  background-image: url('right.png');
+  background-image: url('right.PNG');
   transition: transform 0.2s;
 }
 
 #nextBtn:hover {
-  background-image: url('yellow right.png');
+  background-image: url('yellow right.PNG');
    transform: scale(1.05);
    transition: transform 0.3s;
 }
